@@ -1,0 +1,130 @@
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+
+
+\begin{document}
+
+\title{ALC Tagesbericht\\ vom 08.01.2019}
+\author{Janosch Ehlers, Jacqueline Preis}
+\maketitle
+
+	\begin{center}
+	\textsc{Säure-Base-Chemie}
+	\end{center}
+
+\section{8.1 Protolysegrad schwacher Elektrolyte}
+
+In diesem Versuch wurde die Genauigkeit von dem pH-Meter gegenüber zwei Methoden der theoretischen pH-Wert Bestimmung überprüft. Des Weiteren wurde die Aussagefähigkeit des Ostwald'schen Verdünnungsgesetzes experimentell überprüft.\\
+
+\textsc{Versuchsdurchführung:} Siehe Skript.\\
+
+\textsc{Beobachtung:}\hspace{5mm} In diesem Versuch wurden Folgende Werte gemessen:\\
+\begin{center}
+
+\textsc{Tabelle 1:}\\
+\begin{tabular}{cc}
+Konzentration & pH-Wert\\
+\hline
+1 M & 2,24\\
+0,1 M & 3,35\\
+0,01 M & 3,96\\
+0,001 M & 4,49\\
+0,0001 M & 4,57\\
+\end{tabular}
+\end{center}
+
+\textsc{Auswertung:}\hspace{8mm} Alle Werte sind in Tabelle 2, 3 und 4 übersichtlich dargestellt. $[HA]_0$ stellt hierbei die Konzentration von Säure vor Einstellen des Gleichgewichts dar. $pH_{berechnet (1)}$ errechnet sich aus der bekannten Näherung der Konzentration von Oxoniumionen in einer Lösung: $[H^+]_{eq}=\sqrt{K_s\cdot [HA]_0}$ eingesetzt in die Formel zur Berechnung des pH-Wertes : $pH=-\log([H^+])$ ergibt sich: $$\frac{1}{2}\cdot (pKs-\log([HA]_0))$$ Die Zweite pH-Wert Rechnung ($pH_{berechnet (2)}$) ergibt sich aus einer Formel, die sich aus dem Ostwaldsch'schen Verdünnungsgesetz folgt: $[H^+]_{eq} = -\frac{K_s}{2}\pm\sqrt{(\frac{K_s}{2})^2+K_s\cdot [HA]_0}$ Dies ist eine quadratische Gleichung welche nach $([H^+]_{eq})_1\wedge ([H^+]_{eq})_2$ aufgelöst werden kann. Da es keine Negative Konzentration gibt, kann die Lösung $([H^+]_{eq})_1$ kategorisch ausgeschlossen werden. Die Lösung $([H^+]_{eq})_2$ hingegen kann nun in die bekannte Formel $pH=-\log([H^+]_{eq})$ eingesetzt werden. Die Konzentration $[H_3O^+]_{eq}$ errechnet sich als: $[H_3O^+]_{eq}=10^{-pH gemessen}$. $\alpha_{exp}=\frac{[H_3O^+]_{eq}}{[HA]_0}$, $[HA]_{eq}=[HA]_0-[H_3O^+]_{eq}$, $K_s=\frac{[H_3O^+]_{eq}^2}{[HA]_{eq}}$\\
+
+\begin{center}
+\textsc{Tabelle 2:}\\
+\begin{tabular}{ccc}
+$[HA]_0$ & $pH_{Berechnet(1)}$ & $pH_{Berechnet(2)}$\\
+\hline
+$1$ & $2,38$ & $2,38090521970912$\\
+$0,1$ & $2,88$ & $2,88286253740952$\\
+$0,01$ & $3,38$ & $3,3890515483186$\\
+$0,001$ & $3,88$ & $3,90860489446604$\\
+$0,0001$ & $4,38$ & $4,46987907360171$\\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\textsc{Tabelle 3:}\\
+\begin{tabular}{ccc}
+$PH_{gemessen}$ & $[H_3O^+]_{eq}$ & $a_{exp}$\\
+\hline
+$2,24$ & $0,004168693834703$ & $0,004168693834703$\\
+$3,35$ & $0,001318256738556$ & $0,013182567385564$\\
+$3,96$ & $0,00041686938347$ & $0,041686938347034$\\
+$4,49$ & $0,000131825673856$ & $0,131825673855641$\\
+$4,57$ & $4,16869383470336E-05$ & $0,416869383470336$\\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\textsc{Tabelle 4:}\\
+\begin{tabular}{ccc}
+$[HA]_{eq}$ & $K_s$ & $a_{ostwald}$\\
+\hline
+$0,995831306165297$ & $1,74507551428688E-05$ & $0,004168693834703$\\
+$0,098681743261444$ & $1,76101553470262E-05$ & $0,013182567385564$\\
+$0,00958313061653$ & $1,81339574538606E-05$ & $0,041686938347034$\\
+$0,000868174326144$ & $2,0016726784206E-05$ & $0,131825673855641$\\
+$5,83130616529664E-05$ & $2,98012277093494E-05$ & $0,416869383470335$\\
+\end{tabular}
+\end{center}
+
+Auf zwei Nachkommastellen gerundet, erkennt man, dass $pH_{berechnet (1)}$ ab eine Konzentration von 0,01 M um 0,01 von dem genaueren Wert abweicht. Bei einer Konzentration von 0,0001 M weichen die Werte schon um 0,08 voneinander ab. Die Näherung ist also für die "Schnelle" Berechnung mehr als Ausreichen. Allerdings wenn tatsächlich genaue pH-Werte gesucht werden vor allem, wenn Bereiche untersucht werden in denen die Autoprotolyse von Wasser eine Rolle Spielen, ist die Näherung nicht mehr ausreichend. Da viele Systeme allerdings diesen Grad an Genauigkeit nicht brauchen und zusätzlich Systeme mit solch Feinen pH-Bereichen schwer praktisch zu erreichen sind, kann die Näherung wohl für den Großteil der im Labor benötigten Berechnungen verwendet werden.Die gemessenen pH-Werte haben eine mittlere Abweichung von $\approx 0,37$ zu den theoretischen Werten von $pH_{berechnet (2)}$ es gibt außerdem keine systematischen Unterschiede. Bei steigender Verdünnung kann erwartet werden, dass der Protolysegrad der Säure zunimmt. Diese Vermutung ist eindeutig in den Messergebnissen wiederzufinden. Zwischen den Konzentrationen 1 M und 0,0001 M hat sich der Protolysegrad $\alpha_{Ostwald}$ um den Faktor 100 vergrößert. Interessant ist, dass sich $\alpha_{exp}$ und $\alpha_{Ostwald}$ auf jede Nachkommstelle identisch sind, mit Ausnahme der letzten Nachkommastelle bei einer Konzentration von 0,0001M die Vorhersage ist somit sehr "gut" gewesen. \\
+
+\newpage
+\section{8.2 Puffer}
+
+\textsc{Versuchsdurchführung:} Siehe Skript.\\
+
+\textsc{Beobachtung:}\hspace{5mm} Unsere Messergebnisse können in Tabelle 5 eingesehen werden. Die Messdaten der Gruppe 9, welche hier aus Vergleichsmaterial genutzt werden, sind in Tabelle 6 Dargestellt.\\
+
+\begin{center}
+\textsc{Tabelle 5:}\\
+\begin{tabular}{cccc}
+$H_2O$	&	$\text{Essigsäure}$	&	$\text{Acetat}$	&	$\text{Essigsäure} + \text{Acetat}$\\
+\hline
+$7,03$	&	$2,08$		&	$8,24$		&	$4,53$\\
+$1,67$	&	$1,48$		&	$6,19$		&	$4,44$\\
+$1,36$	&	$1,27$		&	$5,82$		&	$4,38$\\
+$1,19$	&	$1,14$		&	$5,6$		&	$4,28$\\
+$1,03$	&	$1,03$		&	$5,44$		&	$4,26$\\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\textsc{Tabelle 6:}\\
+\begin{tabular}{cccc}
+$H_2O$	&	$\text{Essigsäure}$	&	$\text{Acetat}$	&	$\text{Essigsäure} + \text{Acetat}$\\
+\hline
+$6,04$	&	$2$		&	$7,58$	&	$4,5$\\
+$12,97$	&	$3,27$	&	$13,02$	&	$4,6$\\
+$13,22$	&	$3,63$	&	$13,14$	&	$4,71$\\
+$13,28$	&	$3,88$	&	$13,2$	&	$4,82$\\
+$13,35$	&	$4$		&	$13,23$	&	$5$\\
+
+\end{tabular}
+\end{center}
+
+\textsc{Auswertung:}\hspace{8mm} Anhand der Messergebnisse wird ersichtlich, dass Wasser kein Pufferbereich hat, da der pH-Wert sehr leicht durch die Hinzugabe von Säure oder Lauge verändert werden kann und dies zu keiner gemessenen Konzentration beeinflusst zu sein scheint. Essigsäure und Acetat im Einzelnen scheinen einen Pufferbereich zu haben, allerdings scheint es nur so. Es sind Säuren/Laugen, welche einfache Neutralisationsreaktionen eingehen. Hier liegt kein Säure-Base-Gleichgewicht vor wie es für ein Puffer benötigt wird. Die Lösung aus Essigsäure und Acetat bildet einen Pufferbereich um den pH-Wert 4,5 aus. Da hier der pH-wert durch Hinzugabe von einer Säure oder Base nur schwer verändert wird. Die pH-Werte für die gepufferte Lösung können der folgenden Tabelle entnommen werden:
+\begin{center}
+\textsc{Tabelle 7:}\\
+\begin{tabular}{cc}
+Verdünnung um 5mL & pH-wert\\
+\hline
+0x & 4,76\\
+1x & 4,76\\
+2x & 4,77\\
+3x & 4,77\\
+4x & 4,78\\
+\end{tabular}
+\end{center}
+Die Unterschiede in den Werten sind klar zu erkennen. Während der theoretische Wert über die komplette Titration Hinweg nur um 0,02 punkte abweicht, verändert sich der theoretische Wert sich um 0,27 dies kann unter anderem an dem pH-Meter liegen. Allerdings auch an der Pufferlösung. Wenn hier zu viel des einen oder anderen hinzugegeben wurde, kann dies das Experiment beeinflussen und den Pufferpunkt verschieben.
+
+\end{document}
